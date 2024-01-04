@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+body {
+    height: 100vh;
+    background-size: cover;
+    background-image: linear-gradient(135deg, rgb(131, 0, 212), rgb(51, 51, 248), rgb(131, 0, 212), rgb(51, 51, 248), rgb(131, 0, 212));
+}
+
+h1 {
+    text-align: center;
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+    font-size: 64px;
+    text-shadow: 4px 12px 15px rgba(0, 0, 0, 0.5);
+    padding: 3%;
+}
+
+h2 {
+    font-family: 'DotGothic16', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 38px;
+    color: blueviolet;
+}
+
+.flex-pai {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.flex-pai div {
+    background-image: linear-gradient(380deg, white, rgb(243, 243, 243));
+    border-radius: 40px;
+    margin: 8px;
+    padding: 50px;
+    width: 800px;
+}
+
+a {
+    text-decoration: none;
+    padding: 2%;
+    font-family: 'DotGothic16', sans-serif;
+    border: 2px solid black;
+    background-color: #f49505;
+    border-radius: 15px;
+    width: 250px;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    color: black;
+
+}
+
+a:hover {
+    padding: 3%;
+    background-color: #ffbf00;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    font-family: 'DotGothic16', sans-serif;
+    font-size: 18px;
+    padding: 1%;
+
+}
