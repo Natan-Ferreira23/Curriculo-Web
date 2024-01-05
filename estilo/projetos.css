@@ -30,7 +30,6 @@ h2 {
 .flex-pai {
     display: flex;
     justify-content: space-around;
-
 }
 
 section {
@@ -38,7 +37,6 @@ section {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 
 .flex-pai div {
@@ -61,7 +59,6 @@ a {
     font-size: 25px;
     margin-top: 20px;
     color: black;
-
 }
 
 a:hover {
@@ -75,5 +72,22 @@ footer {
     font-family: 'DotGothic16', sans-serif;
     font-size: 18px;
     padding: 1%;
+}
 
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    .flex-pai div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .flex-pai {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .flex-pai div {
+        width: 100%;
+    }
 }
